@@ -1,0 +1,25 @@
+{
+  "name": "school_schootings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-hervey/school_shootings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomas-hervey/school_shootings/issues"
+  },
+  "homepage": "https://github.com/thomas-hervey/school_shootings#readme",
+  "dependencies": {
+    "d3": "^4.13.0",
+    "node-geocoder": "^3.22.0",
+    "node-wikipedia": "0.0.2",
+    "table-scraper": "^0.1.0"
+  }
+}
