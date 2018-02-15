@@ -10,50 +10,69 @@ const _2000s = wiki_shootings[16]
 const _2010s = wiki_shootings[17]
 
 
-let exampleToGeocode = _1990s[0]['Location']
-exampleToGeocode = exampleToGeocode.split('!')[0]
-console.log(exampleToGeocode)
-
-
+const exampleArray = _1990s.slice(0,2)
 var options = {
   provider: 'google',
 
   httpAdapter: 'https',
   apiKey: googleGeocoderAPIKey,
   formatter: null
-};
+}
 
 var geocoder = NodeGeocoder(options);
 
-// // Using callback
-// geocoder.geocode('29 champs elysée paris', function(err, res) {
-//   console.log(res);
-// });
 
-// // Or using Promise
-// geocoder.geocode('29 champs elysée paris')
-//   .then(function(res) {
-//     console.log(res);
-//   })
-//   .catch(function(err) {
-//     console.log(err);
-//   });
+const locations = _1990s.map(shooting_instance => {
+  const location = shooting_instance['Location']
+  return exampleLocation = location.split('!')[0].trim()
+})
+const example = ['Brooklyn, New York', 'test']
 
-// // output :
-// [{
-//   latitude: 48.8698679,
-//   longitude: 2.3072976,
-//   country: 'France',
-//   countryCode: 'FR',
-//   city: 'Paris',
-//   zipcode: '75008',
-//   streetName: 'Champs-Élysées',
-//   streetNumber: '29',
-//   administrativeLevels: {
-//     level1long: 'Île-de-France',
-//     level1short: 'IDF',
-//     level2long: 'Paris',
-//     level2short: '75'
-//   },
-//   provider: 'google'
-// }]
+const newValues = geocoder.batchGeocode(locations, (error, results) => {
+  if(error) {
+    console.log(error)
+  }
+  else {
+    return results.map((result, index) => {
+      const lat = result['value'][0]['latitude']
+      const lon = result['value'][0]['longitude']
+      const coords = {
+        lat: lat,
+        lon: lon
+      }
+      return _1990s[index].coords = coords
+    })
+  }
+
+})
+// TODO: resolve promise and update values of array locations
+
+console.log(newValues[0])
+
+
+// const updated_1990s = exampleArray.map(shooting_event => {
+
+//   // get the location attribute
+//   let exampleLocation = shooting_event['Location']
+//   exampleLocation = exampleLocation.split('!')[0]
+
+//   // Or using Promise
+//   const geocoded = geocoder.geocode(exampleLocation)
+//     .then(function(res) {
+//       console.log(res)
+//       const coords = {
+//         lat: res[0]['latitude'] || 0,
+//         lon: res[0]['longitude'] || 0
+//       }
+//       return res
+//     })
+//     .then(result => {
+//       shooting_event.coords = coords
+//       return shooting_event
+//     })
+//     .catch(function(err) {
+//       console.log(err)
+//     })
+// })
+
+// console.log(updated_1990s)
