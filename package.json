@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/thomas-hervey/school_shootings#readme",
   "dependencies": {
+    "c3": "^0.4.21",
     "d3": "^4.13.0",
     "node-geocoder": "^3.22.0",
     "node-wikipedia": "0.0.2",
