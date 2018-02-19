@@ -6,7 +6,9 @@
   <meta charset="utf-8" />
 
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+  <link href='../dist/metrics-graphics/metricsgraphics.css' rel='stylesheet' type='text/css'>
   <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="../metrics-graphics/dist/metricsgraphics.min.js"></script>
 
   <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js">
   </script>
@@ -16,7 +18,7 @@
 <body>
 
   <div id="map" style="width: 1200px; height: 500px; margin-left: auto; margin-right: auto"></div>
-
+  <div id="chart"></div>
   <script type="text/javascript">
 
     var map = L.map('map').setView([38.728318, -98], 4);
@@ -64,7 +66,38 @@
           }
         )
       }
+
+      const eventDates = result.shootings.map((event) => {
+        return {
+          date: getYearAndMonth(event),
+          deaths: event.Deaths.slice(6)
+        }
+
+      })
+
+      MG.data_graphic({
+        title: "UFO Sightings",
+        description: "Yearly UFO sightings from the year 1945 to 2010.",
+        data: eventDates,
+        width: 1200,
+        height: 300,
+        target: '#chart',
+        x_accessor: 'date',
+        y_accessor: 'deaths',
+        markers: [{ 'year': 1999, 'label': '"The Creeping Terror" released' }]
+      })
+
     })
+
+    function getYearAndMonth(event) {
+      if (!event.Date) {
+        console.log('No date for the event: ', event)
+        return
+      }
+      else {
+        return event.Date.slice(8, 10)
+      }
+    }
   </script>
 </body>
 
