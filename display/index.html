@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
 
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
-  <link href='../dist/metrics-graphics/metricsgraphics.css' rel='stylesheet' type='text/css'>
+  <link href='../metrics-graphics/dist/metricsgraphics.css' rel='stylesheet' type='text/css'>
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script src="../metrics-graphics/dist/metricsgraphics.min.js"></script>
 
@@ -72,12 +72,12 @@
           date: getYearAndMonth(event),
           deaths: event.Deaths.slice(6)
         }
-
       })
+      console.log(eventDates)
 
       MG.data_graphic({
-        title: "UFO Sightings",
-        description: "Yearly UFO sightings from the year 1945 to 2010.",
+        title: "Example Title",
+        description: "Example Description",
         data: eventDates,
         width: 1200,
         height: 300,
@@ -95,7 +95,7 @@
         return
       }
       else {
-        return event.Date.slice(8, 10)
+        return event.Date.slice(0, 20)
       }
     }
   </script>

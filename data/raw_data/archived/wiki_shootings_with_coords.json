@@ -2056,17 +2056,6 @@
         "lat": 37.6304904,
         "lon": -122.4110835
       }
-    },
-    {
-      "Date": "January 25, 2014",
-      "Location": "Los Angeles, California !Los Angeles, California",
-      "Deaths": "0,000,0011",
-      "Injuries": "0,000,0010",
-      "Description": "A man was killed at Los Angeles Valley College. Two suspects were arrested in the fatal shooting.[457]",
-      "coords": {
-        "lat": 33.8360034,
-        "lon": -79.0478143
-      }
     }
   ]
 }

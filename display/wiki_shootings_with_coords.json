@@ -144,9 +144,9 @@
       }
     },
     {
-      "Date": "January 6, 1993",
+      "Date": "000000001993-01-06-0000January 6, 1993",
       "Location": "Brentwood, New York",
-      "Deaths": "0",
+      "Deaths": "0,000,0000",
       "Injuries": "1",
       "Description": "Brentwood High School. Former student, Matthew Hunter, was shot by two gunmen during a basketball game between Brentwood High School and Sachem High School. The assault was over a dispute about the theft of a gold chain.[251]",
       "coords": {
@@ -168,7 +168,7 @@
     {
       "Date": "000000001993-02-22-0000February 22, 1993",
       "Location": "Los Angeles, California !Los Angeles, California",
-      "Deaths": "1",
+      "Deaths": "0,000,0001",
       "Injuries": "0,000,0010",
       "Description": "15-year-old Robert Heard, fatally shot 17-year-old Michael Shean Ensley in the corridor of the Reseda High School's science building.[253]",
       "coords": {
@@ -342,9 +342,9 @@
       }
     },
     {
-      "Date": "December 14, 1994",
+      "Date": "000000001994-12-14-0000December 14, 1994",
       "Location": "Albany, New York",
-      "Deaths": "0",
+      "Deaths": "0,000,0000",
       "Injuries": "1",
       "Description": "Ralph J. Tortorici, 26, a military veteran and psychology major at the State University of New York at Albany held hostage a large lecture hall from 9:10 a.m. until 11:30 a.m. Tortorici, armed with a .270-caliber rifle with more than two dozen rounds of ammunition and a hunting knife, walked into the ancient history class of Hans Pohlsander, saying, \"Don't worry. Nobody move. You guys are getting held hostage.\" The standoff ended when Tortorici had his gun taken away by Jason McEnaney, a 19-year-old student. McEnaney was shot in the leg, groin, and abdomen in the exchange. Tortorici suffered from a well-document history of mental illness, argued during the hostage crisis that the government had implanted a control chip in his head during a procedure at Albany Medical Center, and ultimately committed suicide in 1999 in prison while serving a 15 1/2 year sentence.[271][272][273][274]",
       "coords": {
@@ -1035,7 +1035,7 @@
       }
     },
     {
-      "Date": "August 24, 2006",
+      "Date": "000000002006-08-24-0000August 24, 2006",
       "Location": "Essex Junction, Vermont",
       "Deaths": "0,000,0012",
       "Injuries": "0,000,0013",
@@ -2055,6 +2055,17 @@
       "coords": {
         "lat": 37.6304904,
         "lon": -122.4110835
+      }
+    },
+    {
+      "Date": "January 25, 2014",
+      "Location": "Los Angeles, California !Los Angeles, California",
+      "Deaths": "0,000,0011",
+      "Injuries": "0,000,0010",
+      "Description": "A man was killed at Los Angeles Valley College. Two suspects were arrested in the fatal shooting.[457]",
+      "coords": {
+        "lat": 33.8360034,
+        "lon": -79.0478143
       }
     },
     {
