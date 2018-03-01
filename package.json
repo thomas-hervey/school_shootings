@@ -19,6 +19,7 @@
   "dependencies": {
     "c3": "^0.4.21",
     "d3": "^4.13.0",
+    "dateformat": "^3.0.3",
     "node-geocoder": "^3.22.0",
     "node-wikipedia": "0.0.2",
     "table-scraper": "^0.1.0"

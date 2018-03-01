@@ -1,0 +1,93 @@
+[
+  {
+    "Date": "January 5, 1970",
+    "Location": "Washington, D.C. !Washington, D.C.",
+    "Deaths": 1,
+    "Injuries": 1,
+    "Description": "15-year-old Tyrone Perry, was killed at Hine Junior High School. In a separate incident another student at a different school was wounded.[149]",
+    "coords": {
+      "lat": 38.9071923,
+      "lon": -77.0368707
+    },
+    "fullDate": "1970-01-05",
+    "yearMonthDate": "1970-01"
+  },
+  {
+    "Date": "February 11, 1970",
+    "Location": "Philadelphia, Pennsylvania !Philadelphia, Pennsylvania",
+    "Deaths": 1,
+    "Injuries": 2,
+    "Description": "University of Pennsylvania professors, 40-year-old Walter Koppelman, and 45-year-old Oscar Goldman, were shot by 33-year-old disgruntled graduate student, Robert Cantor, during a seminar. Cantor then took his own life. Koppelman died March 5 from his injuries, but Goldman recovered.[150]",
+    "coords": {
+      "lat": 39.9525839,
+      "lon": -75.1652215
+    },
+    "fullDate": "1970-02-11",
+    "yearMonthDate": "1970-02"
+  },
+  {
+    "Date": "May 4, 1970",
+    "Location": "Kent, Ohio !Kent, Ohio",
+    "Deaths": 4,
+    "Injuries": 9,
+    "Description": "Kent State shootings: During protests of the Vietnam War at Kent State University, armed National Guard Soldiers opened fire on unarmed students, killing four people.[136][151][152]",
+    "coords": {
+      "lat": 41.1536674,
+      "lon": -81.3578859
+    },
+    "fullDate": "1970-05-04",
+    "yearMonthDate": "1970-05"
+  },
+  {
+    "Date": "May 15, 1970",
+    "Location": "Jackson, Mississippi !Jackson, Mississippi",
+    "Deaths": 2,
+    "Injuries": 12,
+    "Description": "Jackson State killings: Two students were killed and twelve others injured when police opened fire on students gathered to protest the US military presence in Cambodia.[153][154][155]",
+    "coords": {
+      "lat": 32.2987573,
+      "lon": -90.1848103
+    },
+    "fullDate": "1970-05-15",
+    "yearMonthDate": "1970-05"
+  },
+  {
+    "Date": "November 20, 1970",
+    "Location": "Chicago, Illinois !Chicago, Illinois",
+    "Deaths": 0,
+    "Injuries": 2,
+    "Description": "Two students were shot while standing in a second floor hallway of Harlan High School. 15-year-old Kenneth House, was shot in the lower left abdomen, his condition was described as serious. 14-year-old Portia Walls, suffered a superficial wound on her lower back. The incident was thought to have involved gang recruiting in the school.[156]",
+    "coords": {
+      "lat": 41.8781136,
+      "lon": -87.6297982
+    },
+    "fullDate": "1970-11-20",
+    "yearMonthDate": "1970-11"
+  },
+  {
+    "Date": "February 2, 1971",
+    "Location": "Philadelphia, Pennsylvania !Philadelphia, Pennsylvania",
+    "Deaths": 1,
+    "Injuries": 0,
+    "Description": "56-year-old teacher, Samson L. Freedman, was killed as he left Morris E. Leeds School, by 14-year-old student, Kevin Simmons. Freedman had suspended Simmons earlier in the day for cursing in the hallway.[157]",
+    "coords": {
+      "lat": 39.9525839,
+      "lon": -75.1652215
+    },
+    "fullDate": "1971-02-02",
+    "yearMonthDate": "1971-02"
+  },
+  {
+    "Date": "November 11, 1971",
+    "Location": "Spokane, Washington !Spokane, Washington",
+    "Deaths": 2,
+    "Injuries": 4,
+    "Description": "21-year-old former MIT student, Larry J. Harmon, armed with a rifle, killed 68-year-old caretaker, Hilary Kunzon, who came upon him wrecking St. Aloysius Roman Catholic Church, then fled onto the campus of Gonzaga University, where he wounded four more people before police officers killed him. Harmon was described by his father as a religious fanatic claiming to have visions.[158]",
+    "coords": {
+      "lat": 47.6587802,
+      "lon": -117.4260465
+    },
+    "fullDate": "1971-11-11",
+    "yearMonthDate": "1971-11"
+  }
+}
