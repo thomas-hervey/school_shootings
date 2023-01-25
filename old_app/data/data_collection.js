@@ -14,6 +14,6 @@ scraper.get(url).then((tableData) => {
   // console.log(tableData[15])
   fs.writeFile("./raw_data/wiki_shootings.json", asString, (err) => {
     if (err) console.log(err)
-    else { console.log('successfully saved')}
+    else { console.log('successfully saved') }
   })
 })
